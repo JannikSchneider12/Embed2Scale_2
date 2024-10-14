@@ -1,24 +1,31 @@
+import random
+import torch
+import torch.nn as nn
+from torch.utils.data import Dataset, DataLoader
+import pandas as pd
+import json
+import ast
+
+from Linear_Probing import SimpleEmbeddingDataset, create_dataloader, linear_probing_model, train
 
 
-def evaluate(user_submission_file, phase_codename, test_annotation_file=None, **kwargs):
+def evaluate(test_annotation_file_path, user_submission_file_path, phase_codename, **kwargs):
+
     print("Starting Evaluation.....")
+    
     """
     Evaluates the submission for a particular challenge phase and returns score
     Arguments:
+
+        `test_annotations_file`: Path to test_annotation_file on the server
         `user_submission_file`: Path to file submitted by the user
         `phase_codename`: Phase to which submission is made
 
-        `test_annotations_file`: Path to test_annotation_file on the server
-            We recommend setting a default `test_annotation_file` or using `phase_codename`
-            to select the appropriate file. For example, you could load test annotation file
-            for current phase as:
-            ```
-            test_annotation_file = json.loads(open("{phase_codename}_path", "r"))
-            ```
         `**kwargs`: keyword arguments that contains additional submission
         metadata that challenge hosts can use to send slack notification.
         You can access the submission metadata
         with kwargs['submission_metadata']
+
         Example: A sample submission metadata can be accessed like this:
         >>> print(kwargs['submission_metadata'])
         {
@@ -43,34 +50,71 @@ def evaluate(user_submission_file, phase_codename, test_annotation_file=None, **
         }
     """
 
-    '''
-    # Load test annotation file for current phase
-    test_annotation_file = json.loads(open("{phase_codename}_path", "r"))
-    '''
+    embedding_dim = 2048
+    num_classes = 2
+    batch_size=32
+    num_epochs = 10
+    device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
+    
+
     output = {}
+
     if phase_codename == "dev":
         print("Evaluating for Dev Phase")
-        output["result"] = [
-            {
-                "split": "train_split",
-                "show_to_participant": True,
-                "accuracies": {"Metric1": 90},
-            },
-        ]
-        print("Completed evaluation for Dev Phase")
-    elif phase_codename == "test":
+
+    elif phase_codename == 'test':
         print("Evaluating for Test Phase")
-        output["result"] = [
+
+    # 1) create dataloaders
+    train_dataloader, val_dataloader = create_dataloader(submission_df_path=user_submission_file_path, 
+                                                         annotations_json_path=test_annotation_file_path,
+                                                         batch_size=batch_size)
+
+    # 2) create Linear Probing Model
+    model = linear_probing_model(embedding_dim=embedding_dim)
+    
+    loss_fn = nn.BCELoss()
+    optimizer = torch.optim.Adam(params=model.parameters(), lr=0.01)
+
+    # 3) train the model and evaluate
+    final_train_loss, final_val_loss = train(model=model, 
+                                             train_dataloader=train_dataloader, 
+                                             val_dataloader=val_dataloader,
+                                             device=device,
+                                             optimizer=optimizer,
+                                             loss_fn=loss_fn,
+                                             num_epochs=num_epochs)
+
+    output['result'] = [
             {
-                "split": "train_split",
-                "show_to_participant": True,
-                "accuracies": {"Metric1": 90},
+                'train_split': {
+                    'final_train_loss': final_train_loss,
+                    'final_val_loss': final_val_loss,
+                    'Metric3': 123,
+                    'Total': 123,
+                }
             },
             {
-                "split": "test_split",
-                "show_to_participant": False,
-                "accuracies": {"Metric1": 50, "Metric2": 40},
-            },
+                'test_split': {
+                    'final_train_loss': final_train_loss,
+                    'final_val_loss': final_val_loss,
+                    'Metric3': 123,
+                    'Total': 123,
+                }
+            }
         ]
-        print("Completed evaluation for Test Phase")
+    
+    # To display the results in the result file
+    if phase_codename == "dev":
+
+        output["submission_result"] = output["result"][0]
+
+    elif phase_codename == "test":
+
+        output["submission_result"] = output["result"][1]
+
+    # print(output['submission_result'])
+
+    print(f"Completed evaluation for {phase_codename}")
+
     return output

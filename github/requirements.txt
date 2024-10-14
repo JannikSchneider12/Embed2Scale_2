@@ -1,2 +1,6 @@
 PyGithub===1.53
 requests==2.24.0
+torch==1.13.1
+numpy
+pandas
+matplotlib

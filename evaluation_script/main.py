@@ -1,8 +1,18 @@
 import random
+import torch
+import torch.nn as nn
+from torch.utils.data import Dataset, DataLoader
+import pandas as pd
+import json
+import ast
+
+from Linear_Probing import SimpleEmbeddingDataset, create_dataloader, linear_probing_model, train
 
 
-def evaluate(test_annotation_file, user_submission_file, phase_codename, **kwargs):
+def evaluate(test_annotation_file_path, user_submission_file_path, phase_codename, **kwargs):
+
     print("Starting Evaluation.....")
+    
     """
     Evaluates the submission for a particular challenge phase and returns score
     Arguments:
@@ -39,43 +49,70 @@ def evaluate(test_annotation_file, user_submission_file, phase_codename, **kwarg
             'submitted_at': u'2017-03-20T19:22:03.880652Z'
         }
     """
+
+    embedding_dim = 2048
+    num_classes = 2
+    batch_size=32
+    num_epochs = 10
+    device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
+    
+
     output = {}
+
     if phase_codename == "dev":
         print("Evaluating for Dev Phase")
-        output["result"] = [
+
+    elif phase_codename == 'test':
+        print("Evaluating for Test Phase")
+
+    # 1) create dataloaders
+    train_dataloader, val_dataloader = create_dataloader(submission_df_path=user_submission_file_path, 
+                                                         annotations_json_path=test_annotation_file_path,
+                                                         batch_size=batch_size)
+
+    # 2) create Linear Probing Model
+    model = linear_probing_model(embedding_dim=embedding_dim)
+    
+    loss_fn = nn.BCELoss()
+    optimizer = torch.optim.Adam(params=model.parameters(), lr=0.01)
+
+    # 3) train the model and evaluate
+    final_train_loss, final_val_loss = train(model=model, 
+                                             train_dataloader=train_dataloader, 
+                                             val_dataloader=val_dataloader,
+                                             device=device,
+                                             optimizer=optimizer,
+                                             loss_fn=loss_fn,
+                                             num_epochs=num_epochs)
+
+    output['result'] = [
             {
-                "train_split": {
-                    "Metric1": random.randint(0, 99),
-                    "Metric2": random.randint(0, 99),
-                    "Metric3": random.randint(0, 99),
-                    "Total": random.randint(0, 99),
+                'train_split': {
+                    'final_train_loss': final_train_loss,
+                    'final_val_loss': final_val_loss,
+                    'Metric3': 123,
+                    'Total': 123,
+                }
+            },
+            {
+                'test_split': {
+                    'final_train_loss': final_train_loss,
+                    'final_val_loss': final_val_loss,
+                    'Metric3': 123,
+                    'Total': 123,
                 }
             }
         ]
-        # To display the results in the result file
-        output["submission_result"] = output["result"][0]["train_split"]
-        print("Completed evaluation for Dev Phase")
-    elif phase_codename == "test":
-        print("Evaluating for Test Phase")
-        output["result"] = [
-            {
-                "train_split": {
-                    "Metric1": random.randint(0, 99),
-                    "Metric2": random.randint(0, 99),
-                    "Metric3": random.randint(0, 99),
-                    "Total": random.randint(0, 99),
-                }
-            },
-            {
-                "test_split": {
-                    "Metric1": random.randint(0, 99),
-                    "Metric2": random.randint(0, 99),
-                    "Metric3": random.randint(0, 99),
-                    "Total": random.randint(0, 99),
-                }
-            },
-        ]
-        # To display the results in the result file
+    
+    # To display the results in the result file
+    if phase_codename == "dev":
+
         output["submission_result"] = output["result"][0]
-        print("Completed evaluation for Test Phase")
+
+    elif phase_codename == "test":
+
+        output["submission_result"] = output["result"][1]
+
+    print(f"Completed evaluation for {phase_codename}")
+
     return output
