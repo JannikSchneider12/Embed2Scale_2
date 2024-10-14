@@ -1,3 +1,3370 @@
 {
-	"foo": "bar"
+  "train": {
+    "samples": [
+      {
+        "id": "chihuahua_204.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_314.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_11.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_766.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_54.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_228.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_438.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_47.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_567.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_300.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_396.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_381.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_682.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_780.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_614.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_324.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_30.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_8.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_135.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_26.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_309.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_569.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_18.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_342.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_147.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_687.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_308.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_178.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_824.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_401.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_236.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_97.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_760.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_5.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_482.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_119.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_23.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_269.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_314.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_320.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_470.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_62.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_324.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_411.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_688.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_870.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_220.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_366.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_342.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_175.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_235.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_769.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_403.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_485.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_483.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_865.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_92.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_662.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_157.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_272.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_117.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_54.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_826.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_673.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_229.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_122.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_145.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_355.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_454.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_635.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_886.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_321.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_312.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_140.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_722.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_877.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_78.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_207.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_631.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_241.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_505.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_848.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_761.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_510.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_41.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_56.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_7.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_225.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_831.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_31.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_194.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_436.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_424.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_55.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_325.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_568.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_408.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_640.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_450.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_735.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_230.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_148.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_174.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_663.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_602.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_145.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_465.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_338.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_609.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_771.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_867.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_276.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_14.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_772.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_777.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_386.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_274.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_519.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_290.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_417.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_798.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_606.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_276.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_800.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_565.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_179.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_165.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_114.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_156.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_792.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_184.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_610.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_480.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_504.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_793.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_816.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_212.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_31.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_21.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_239.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_233.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_12.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_268.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_416.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_63.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_435.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_477.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_741.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_499.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_382.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_181.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_104.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_239.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_337.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_228.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_35.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_811.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_425.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_23.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_445.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_163.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_669.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_326.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_262.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_333.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_449.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_273.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_113.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_347.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_65.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_852.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_600.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_407.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_267.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_327.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_159.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_265.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_526.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_379.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_578.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_32.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_667.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_881.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_486.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_346.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_844.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_864.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_102.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_469.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_34.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_808.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_595.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_756.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_731.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_249.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_17.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_608.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_714.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_382.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_229.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_323.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_368.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_86.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_345.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_39.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_353.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_13.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_552.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_369.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_470.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_281.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_113.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_523.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_750.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_104.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_15.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_742.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_350.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_287.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_604.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_254.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_564.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_598.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_153.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_198.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_340.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_186.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_443.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_264.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_204.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_620.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_177.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_487.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_72.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_858.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_376.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_185.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_383.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_770.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_138.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_255.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_404.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_288.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_807.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_451.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_746.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_136.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_251.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_236.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_495.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_633.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_297.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_894.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_721.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_335.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_398.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_333.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_7.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_279.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_50.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_25.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_273.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_415.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_648.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_128.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_94.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_644.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_247.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_490.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_773.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_244.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_630.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_873.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_295.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_11.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_575.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_16.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_406.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_186.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_787.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_452.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_231.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_288.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_289.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_83.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_174.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_788.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_24.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_210.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_313.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_3.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_439.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_340.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_822.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_776.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_520.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_726.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_652.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_421.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_501.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_148.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_847.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_76.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_393.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_335.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_367.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_473.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_71.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_872.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_72.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_202.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_344.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_173.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_316.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_352.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_160.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_554.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_57.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_51.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_428.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_540.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_419.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_243.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_343.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_162.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_405.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_545.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_458.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_587.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_434.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_685.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_448.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_66.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_359.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_115.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_576.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_272.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_709.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_572.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_684.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_251.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_248.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_208.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_810.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_36.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_698.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_469.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_51.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_386.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_34.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_805.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_508.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_605.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_492.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_516.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_503.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_456.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_305.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_334.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_450.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_360.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_475.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_73.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_384.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_475.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_524.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_263.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_100.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_69.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_360.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_346.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_395.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_253.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_466.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_22.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_187.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_260.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_537.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_283.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_223.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_207.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_121.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_795.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_98.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_115.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_850.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_119.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_377.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_252.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_192.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_481.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_597.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_734.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_496.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_249.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_442.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_171.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_752.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_371.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_88.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_296.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_27.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_717.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_843.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_224.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_190.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_280.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_584.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_423.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_557.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_482.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_201.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_891.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_391.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_263.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_311.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_49.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_303.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_549.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_464.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_261.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_176.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_250.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_275.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_396.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_768.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_28.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_590.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_468.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_476.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_4.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_405.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_374.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_45.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_218.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_410.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_326.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_349.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_143.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_99.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_330.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_711.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_494.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_83.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_191.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_224.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_338.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_58.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_694.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_804.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_490.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_107.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_373.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_254.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_223.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_208.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_269.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_205.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_284.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_120.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_467.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_713.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_126.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_139.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_426.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_814.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_433.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_712.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_313.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_108.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_169.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_189.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_666.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_190.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_49.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_538.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_583.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_758.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_43.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_551.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_499.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_123.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_233.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_427.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_801.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_237.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_353.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_366.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_451.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_874.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_230.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_214.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_332.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_581.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_159.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_676.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_299.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_506.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_570.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_528.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_19.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_385.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_803.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_270.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_303.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_123.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_244.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_483.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_646.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_171.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_703.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_585.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_140.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_484.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_419.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_706.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_133.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_629.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_413.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_434.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_116.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_125.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_623.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_258.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_514.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_289.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_677.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_118.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_802.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_139.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_101.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_392.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_404.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_198.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_421.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_740.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_136.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_765.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_2.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_498.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_92.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_727.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_81.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_432.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_157.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_560.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_275.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_388.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_221.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_286.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_415.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_281.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_18.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_88.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_47.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_240.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_6.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_226.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_351.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_90.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_719.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_828.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_473.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_414.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_165.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_142.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_133.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_580.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_124.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_12.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_227.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_40.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_402.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_577.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_744.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_592.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_593.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_430.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_785.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_158.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_408.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_637.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_883.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_444.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_312.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_266.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_138.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_213.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_59.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_99.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_38.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_827.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_106.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_440.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_455.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_591.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_286.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_594.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_454.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_871.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_364.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_830.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_14.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_151.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_542.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_199.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_334.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_880.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_900.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_474.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_197.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_188.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_391.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_409.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_468.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_8.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_368.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_498.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_379.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_511.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_252.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_489.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_615.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_823.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_287.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_574.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_155.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_144.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_1.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_84.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_203.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_628.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_794.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_427.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_32.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_10.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_547.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_571.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_310.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_184.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_317.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_515.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_649.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_555.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_194.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_68.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_471.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_259.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_563.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_28.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_82.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_149.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_708.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_296.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_354.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_306.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_536.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_704.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_837.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_65.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_534.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_821.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_2.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_318.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_41.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_77.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_75.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_74.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_116.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_653.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_833.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_861.JPG",
+        "label": 0
+      }
+    ]
+  },
+  "val": {
+    "samples": [
+      {
+        "id": "chihuahua_298.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_134.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_437.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_182.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_485.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_820.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_387.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_686.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_671.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_358.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_180.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_851.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_550.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_57.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_895.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_372.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_783.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_217.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_135.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_301.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_502.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_238.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_724.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_238.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_345.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_627.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_147.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_279.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_374.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_398.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_344.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_462.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_622.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_809.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_370.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_42.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_33.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_832.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_149.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_436.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_121.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_619.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_144.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_710.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_322.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_172.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_389.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_284.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_327.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_214.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_192.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_89.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_339.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_336.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_137.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_392.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_201.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_463.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_546.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_111.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_341.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_329.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_146.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_544.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_112.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_15.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_429.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_203.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_78.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_301.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_778.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_455.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_16.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_316.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_259.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_361.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_596.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_377.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_836.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_62.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_114.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_151.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_331.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_117.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_108.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_191.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_655.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_868.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_707.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_351.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_196.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_282.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_638.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_378.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_513.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_411.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_459.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_25.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_350.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_213.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_246.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_410.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_234.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_317.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_869.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_589.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_616.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_446.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_160.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_169.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_293.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_362.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_818.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_26.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_476.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_341.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_656.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_431.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_320.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_395.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_812.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_457.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_462.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_371.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_20.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_486.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_170.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_672.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_257.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_387.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_215.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_496.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_431.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_441.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_321.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_464.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_271.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_93.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_118.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_105.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_397.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_220.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_60.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_265.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_522.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_751.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_588.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_733.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_403.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_278.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_461.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_863.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_27.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_423.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_738.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_452.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_355.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_460.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_29.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_458.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_9.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_424.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_573.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_60.JPG",
+        "label": 1
+      },
+      {
+        "id": "muffin_294.JPG",
+        "label": 1
+      },
+      {
+        "id": "chihuahua_642.JPG",
+        "label": 0
+      },
+      {
+        "id": "chihuahua_164.JPG",
+        "label": 0
+      },
+      {
+        "id": "muffin_363.JPG",
+        "label": 1
+      }
+    ]
+  }
 }
