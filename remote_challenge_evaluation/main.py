@@ -9,6 +9,8 @@ import requests
 from eval_ai_interface import EvalAI_Interface
 from evaluate import evaluate
 
+
+
 #############################################################################
 def load_config(file_path='github/host_config.json'):
     try:
@@ -24,6 +26,7 @@ def load_config(file_path='github/host_config.json'):
 # Load configuration from JSON file
 config = load_config()
 
+
 # Define mapping between config file keys and required variable names
 config_mapping = {
     "token": "AUTH_TOKEN",
@@ -38,10 +41,9 @@ config_mapping = {
 for config_key, env_var in config_mapping.items():
     if config_key in config:
         os.environ[env_var] = str(config[config_key])
-    elif env_var != "SAVE_DIR":  # SAVE_DIR is optional
-        print(f"Error: {config_key} is not set in the config file.")
-        sys.exit(1)
-
+    # elif env_var != "SAVE_DIR":  # SAVE_DIR is optional
+    #     print(f"Error: {config_key} is not set in the config file.")
+    #     sys.exit(1)
 # Set default for SAVE_DIR if not in config
 if "SAVE_DIR" not in os.environ:
     os.environ["SAVE_DIR"] = "./"
@@ -55,6 +57,7 @@ evalai_api_server = os.environ["API_SERVER"]
 queue_name = "embed2scale-challenge-test2--2389-production-c43a1f6e-35a3-4e13-b1ef-14f7fa771e6"
 challenge_pk = "2389" #os.environ["CHALLENGE_PK"]
 save_dir = os.environ.get("SAVE_DIR", "./")
+
 
 
 def download(submission, save_dir):
