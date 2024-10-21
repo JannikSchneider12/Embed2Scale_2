@@ -9,7 +9,7 @@ image: logo.jpg
 submission_guidelines: templates/submission_guidelines.html
 leaderboard_description: This is the test for the userboard
 evaluation_script: evaluation_script.zip
-remote_evaluation: False
+remote_evaluation: True
 is_docker_based: False
 start_date: 2024-10-14 00:00:00
 end_date: 2024-10-31 23:59:59
