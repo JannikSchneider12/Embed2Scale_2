@@ -52,8 +52,8 @@ if "SAVE_DIR" not in os.environ:
 # See https://evalai.readthedocs.io/en/latest/evaluation_scripts.html#writing-remote-evaluation-script
 auth_token = os.environ["AUTH_TOKEN"]
 evalai_api_server = os.environ["API_SERVER"]
-queue_name = os.environ["QUEUE_NAME"]
-challenge_pk = "2372" #os.environ["CHALLENGE_PK"]
+queue_name = "embed2scale-challenge-test2--2389-production-c43a1f6e-35a3-4e13-b1ef-14f7fa771e6"
+challenge_pk = "2389" #os.environ["CHALLENGE_PK"]
 save_dir = os.environ.get("SAVE_DIR", "./")
 
 
