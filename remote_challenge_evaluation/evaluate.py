@@ -104,6 +104,7 @@ def evaluate(test_annotation_file_path, user_submission_file_path, phase_codenam
             }
         ]
     
+    '''
     # To display the results in the result file
     if phase_codename == "dev":
 
@@ -114,7 +115,7 @@ def evaluate(test_annotation_file_path, user_submission_file_path, phase_codenam
         output["submission_result"] = output["result"][1]
 
     # print(output['submission_result'])
-
+    '''
     print(f"Completed evaluation for {phase_codename}")
 
     return output
