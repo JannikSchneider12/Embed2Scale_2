@@ -115,8 +115,13 @@ class EvalAI_Interface:
             [JSON]: JSON response data
         """
         url = URLS.get("update_submission").format(self.CHALLENGE_PK)
+        print(f"update_submission_debug get url: {url}")
         url = self.return_url_per_environment(url)
+        print(f"update_submission_debug return url: {url}")
+        # Log the data being sent
+        print("Data being sent to API:", data)
         response = self.make_request(url, "PUT", data=data)
+        print(f"response: {response}")
         return response
 
     def update_submission_status(self, data):

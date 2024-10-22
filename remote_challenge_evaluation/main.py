@@ -58,7 +58,14 @@ queue_name = "embed2scale-challenge-test2--2389-production-c43a1f6e-35a3-4e13-b1
 challenge_pk = "2389" #os.environ["CHALLENGE_PK"]
 save_dir = os.environ.get("SAVE_DIR", "./")
 
-
+'''
+print("Debugging for parameters")
+print(f"auth_token: {auth_token}")
+print(f"evalai_api_server: {evalai_api_server}")
+print(f"queue_name: {queue_name}")
+print(f"challenge_pk: {challenge_pk}")
+print(f"save_dir: {save_dir}")
+'''
 
 def download(submission, save_dir):
     response = requests.get(submission["input_file"])
@@ -120,6 +127,8 @@ if __name__ == "__main__":
         # Get the message from the queue
         message = evalai.get_message_from_sqs_queue()
         message_body = message.get("body")
+        print(f"Fetched message: {message}")
+        print(f'message_body: {message_body}')
         if message_body:
             submission_pk = message_body.get("submission_pk")
             challenge_pk = message_body.get("challenge_pk")
@@ -127,26 +136,34 @@ if __name__ == "__main__":
             # Get submission details -- This will contain the input file URL
             submission = evalai.get_submission_by_pk(submission_pk)
             challenge_phase = evalai.get_challenge_phase_by_pk(phase_pk)
+            
             if (
                 submission.get("status") == "finished"
                 or submission.get("status") == "failed"
                 or submission.get("status") == "cancelled"
             ):
+                print("if condition successful")
                 message_receipt_handle = message.get("receipt_handle")
                 evalai.delete_message_from_sqs_queue(message_receipt_handle)
 
             else:
+                print("else condition successful")
                 if submission.get("status") == "submitted":
                     update_running(evalai, submission_pk)
                 submission_file_path = download(submission, save_dir)
+                print(f'submission_file_path: {submission_file_path}')
                 try:
-                    results = evaluate(
-                        submission_file_path, challenge_phase["codename"]
+                    print("try evaluate")
+                    results = evaluate(test_annotation_file_path='./annotations/test_annotations_testsplit.json',
+                        user_submission_file_path=submission_file_path, phase_codename=challenge_phase["codename"]
                     )
+                    print(f"results: {results}")
+                    print(f'evalai: {evalai}, \n phase_pk: {phase_pk}, \n submission_pk: {submission_pk}, json_dumps: {json.dumps(results["result"])}')
                     update_finished(
-                        evalai, phase_pk, submission_pk, json.dumps(results["result"])
+                        evalai, phase_pk, submission_pk, json.dumps(results["result"]) # json.dumps(results["results"])
                     )
                 except Exception as e:
+                    print(f"Error: {str(e)}")
                     update_failed(evalai, phase_pk, submission_pk, str(e))
         # Poll challenge queue for new submissions
         time.sleep(60)
