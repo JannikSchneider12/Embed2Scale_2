@@ -85,6 +85,28 @@ def evaluate(test_annotation_file_path, user_submission_file_path, phase_codenam
                                              loss_fn=loss_fn,
                                              num_epochs=num_epochs)
 
+
+    output['result'] = [
+    {
+        'train_split': {
+            'train_final_train_loss': final_train_loss,
+            'train_final_val_loss': final_val_loss,
+            'train_Metric3': 123,
+            'train_Total': 123,
+        }
+    },
+    {
+        'test_split': {
+            'test_final_train_loss': final_train_loss,
+            'test_final_val_loss': final_val_loss,
+            'test_Metric3': 123,
+            'test_Total': 123,
+        }
+    }
+]
+
+    # old format
+    '''
     output['result'] = [
             {
                 'train_split': {
@@ -103,6 +125,7 @@ def evaluate(test_annotation_file_path, user_submission_file_path, phase_codenam
                 }
             }
         ]
+    '''
     
     '''
     # To display the results in the result file
