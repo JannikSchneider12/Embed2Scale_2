@@ -15,7 +15,7 @@ start_date: 2024-10-14 00:00:00
 end_date: 2024-11-30 23:59:59
 published: True
 
-leaderboard:
+'leaderboard:
   - id: 1
     schema:
       {
@@ -25,6 +25,25 @@ leaderboard:
           "final_val_loss": {
             "sort_ascending": True,
             "description": "The last validation loss from training the linear probing layer",
+          }
+        }
+      }'
+
+leaderboard:
+  - id: 1
+    schema:
+      {
+        "labels": ["train_final_train_loss", "train_final_val_loss", "train_Metric3", "train_Total",
+                   "test_final_train_loss", "test_final_val_loss", "test_Metric3", "test_Total"],
+        "default_order_by": "test_final_val_loss",
+        "metadata": {
+          "test_final_val_loss": {
+            "sort_ascending": True,
+            "description": "Validation loss on the test split",
+          },
+          "train_final_val_loss": {
+            "sort_ascending": True,
+            "description": "Validation loss on the train split",
           }
         }
       }
