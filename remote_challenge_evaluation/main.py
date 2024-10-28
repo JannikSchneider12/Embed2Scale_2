@@ -116,8 +116,27 @@ def update_finished(
         "submission_status": "FINISHED",
         "result": result,
         "metadata": metadata,
+        "split": "test_split", # test
     }
-    update_data = evalai.update_submission_data(submission_data)
+
+    ###################################### test 
+    print("Debug - Submission data being sent:")
+    print(f"Phase PK: {phase_pk}")
+    print(f"Submission PK: {submission_pk}")
+    print(f"Result type: {type(result)}")
+    print(f"Result content: {result}")
+    print(f"Full submission data: {submission_data}")
+
+    try:
+        update_data = evalai.update_submission_data(submission_data)
+        print("Success - Update response:", update_data)
+        return update_data
+    except requests.exceptions.RequestException as e:
+        print(f"API Error details: {e.response.text if hasattr(e, 'response') else str(e)}")
+        raise
+    ###################################### test
+
+   # update_data = evalai.update_submission_data(submission_data)
 
 
 if __name__ == "__main__":
