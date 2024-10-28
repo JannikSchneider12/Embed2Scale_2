@@ -15,19 +15,6 @@ start_date: 2024-10-14 00:00:00
 end_date: 2024-11-30 23:59:59
 published: True
 
-'leaderboard:
-  - id: 1
-    schema:
-      {
-        "labels": ["final_train_loss","final_val_loss","Metric3","Total"],
-        "default_order_by": "final_val_loss",
-        "metadata": {
-          "final_val_loss": {
-            "sort_ascending": True,
-            "description": "The last validation loss from training the linear probing layer",
-          }
-        }
-      }'
 
 leaderboard:
   - id: 1
