@@ -104,7 +104,7 @@ def evaluate(test_annotation_file_path, user_submission_file_path, phase_codenam
             {
                 "split": "train_split",
                 "show_to_participant": True,
-                "metrics": {
+                "accuracies": {
                     'final_train_loss': final_train_loss,
                     'final_val_loss': final_val_loss,
                     'Metric3': 123,
@@ -113,8 +113,8 @@ def evaluate(test_annotation_file_path, user_submission_file_path, phase_codenam
             },
             {
                 "split": "test_split",
-                "show_to_participant": False,
-                "metrics": {
+                "show_to_participant": True,
+                "accuracies": {
                     'final_train_loss': final_train_loss,
                     'final_val_loss': final_val_loss,
                     'Metric3': 123,
