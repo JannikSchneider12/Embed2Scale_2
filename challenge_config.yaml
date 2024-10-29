@@ -20,17 +20,12 @@ leaderboard:
   - id: 1
     schema:
       {
-        "labels": ["train_final_train_loss", "train_final_val_loss", "train_Metric3", "train_Total",
-                   "test_final_train_loss", "test_final_val_loss", "test_Metric3", "test_Total"],
-        "default_order_by": "test_final_val_loss",
+        "labels": ["final_train_loss","final_val_loss","Metric3","Total"],
+        "default_order_by": "final_val_loss",
         "metadata": {
-          "test_final_val_loss": {
+          "final_val_loss": {
             "sort_ascending": True,
-            "description": "Validation loss on the test split",
-          },
-          "train_final_val_loss": {
-            "sort_ascending": True,
-            "description": "Validation loss on the train split",
+            "description": "The last validation loss from training the linear probing layer",
           }
         }
       }
@@ -88,9 +83,9 @@ challenge_phases:
     end_date: 2099-10-31 23:59:59
     test_annotation_file: annotations/test_annotations_testsplit.json
     codename: test
-    max_submissions_per_day: 5
-    max_submissions_per_month: 50
-    max_submissions: 50
+    max_submissions_per_day: 50
+    max_submissions_per_month: 100
+    max_submissions: 100
     default_submission_meta_attributes:
       - name: method_name
         is_visible: True

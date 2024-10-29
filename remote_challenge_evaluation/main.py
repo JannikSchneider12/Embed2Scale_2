@@ -116,7 +116,6 @@ def update_finished(
         "submission_status": "FINISHED",
         "result": result,
         "metadata": metadata,
-        "split": "test_split", # test
     }
 
     ###################################### test 
@@ -128,12 +127,26 @@ def update_finished(
     print(f"Full submission data: {submission_data}")
 
     try:
+
         update_data = evalai.update_submission_data(submission_data)
         print("Success - Update response:", update_data)
         return update_data
+
     except requests.exceptions.RequestException as e:
+        # Print out status code and headers if available
         print(f"API Error details: {e.response.text if hasattr(e, 'response') else str(e)}")
+        # Check for extra information in the error response
+        if e.response is not None:
+            print(f"Response Status Code: {e.response.status_code}")
+            print(f"Response Headers: {e.response.headers}")
+            print(f"Response Content: {e.response.content}")
+            print(f"Response Reason: {e.response.reason}")
+        else:
+            print(f"Error details: {str(e)}")
+            
         raise
+
+
     ###################################### test
 
    # update_data = evalai.update_submission_data(submission_data)
