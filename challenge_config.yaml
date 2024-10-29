@@ -23,9 +23,21 @@ leaderboard:
         "labels": ["final_train_loss","final_val_loss","Metric3","Total"],
         "default_order_by": "final_val_loss",
         "metadata": {
+          "final_train_loss": {
+            "sort_ascending": True,
+            "description": "Training loss metric",
+          },
           "final_val_loss": {
             "sort_ascending": True,
             "description": "The last validation loss from training the linear probing layer",
+          },
+          "Metric3": {
+            "sort_ascending": False,
+            "description": "Custom metric 3 description",
+          },
+          "Total": {
+            "sort_ascending": False,
+            "description": "Overall score",
           }
         }
       }
