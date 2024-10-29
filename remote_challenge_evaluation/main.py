@@ -9,6 +9,15 @@ import requests
 from eval_ai_interface import EvalAI_Interface
 from evaluate import evaluate
 
+#### just for debugging -> remove later
+import logging
+
+logging.basicConfig(level=logging.DEBUG)
+logger = logging.getLogger('requests')
+logger.setLevel(logging.DEBUG)
+#### just for debugging -> remove later
+
+
 
 
 #############################################################################
@@ -143,7 +152,7 @@ def update_finished(
             print(f"Response Reason: {e.response.reason}")
         else:
             print(f"Error details: {str(e)}")
-            
+
         raise
 
 
