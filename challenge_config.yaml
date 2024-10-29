@@ -17,7 +17,7 @@ published: True
 
 
 leaderboard:
-  - id: 1
+  - id: 2
     schema:
       {
         "labels": ["final_train_loss","final_val_loss","Metric3","Total"],
