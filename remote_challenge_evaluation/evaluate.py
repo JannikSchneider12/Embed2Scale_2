@@ -86,6 +86,44 @@ def evaluate(test_annotation_file_path, user_submission_file_path, phase_codenam
                                              num_epochs=num_epochs)
 
 
+    if phase_codename == "dev":
+        output["result"] = [
+            {
+                "split": "train_split",
+                "show_to_participant": True,
+                "metrics": {
+                    'final_train_loss': final_train_loss,
+                    'final_val_loss': final_val_loss,
+                    'Metric3': 123,
+                    'Total': 123,
+                }
+            }
+        ]
+    elif phase_codename == "test":
+        output["result"] = [
+            {
+                "split": "train_split",
+                "show_to_participant": True,
+                "metrics": {
+                    'final_train_loss': final_train_loss,
+                    'final_val_loss': final_val_loss,
+                    'Metric3': 123,
+                    'Total': 123,
+                }
+            },
+            {
+                "split": "test_split",
+                "show_to_participant": False,
+                "metrics": {
+                    'final_train_loss': final_train_loss,
+                    'final_val_loss': final_val_loss,
+                    'Metric3': 123,
+                    'Total': 123,
+                }
+            }
+        ]
+
+    '''
     output['result'] = [
             {
                 'train_split': {
@@ -106,7 +144,7 @@ def evaluate(test_annotation_file_path, user_submission_file_path, phase_codenam
         ]
 
     
-    '''
+    
     # To display the results in the result file
     if phase_codename == "dev":
 
