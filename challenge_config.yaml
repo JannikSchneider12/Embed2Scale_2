@@ -29,20 +29,7 @@ leaderboard:
           }
         }
       }
-  - id: 2
-    schema:
-      {
-        "labels": ["final_train_loss","final_val_loss","Metric3","Total"],
-        "default_order_by": "final_val_loss",
-        "metadata": {
-          "final_val_loss": {
-            "sort_ascending": True,
-            "description": "The last validation loss from training the linear probing layer",
-          }
-        }
-      }
     
-
 challenge_phases:
   - id: 1
     name: Dev Phase
