@@ -91,7 +91,7 @@ def evaluate(test_annotation_file_path, user_submission_file_path, phase_codenam
             {
                 "split": "train_split",
                 "show_to_participant": True,
-                "metrics": {
+                "accuracies": {
                     'final_train_loss': final_train_loss,
                     'final_val_loss': final_val_loss,
                     'Metric3': 123,
@@ -101,16 +101,16 @@ def evaluate(test_annotation_file_path, user_submission_file_path, phase_codenam
         ]
     elif phase_codename == "test":
         output["result"] = [
-            {
-                "split": "train_split",
-                "show_to_participant": True,
-                "accuracies": {
-                    'final_train_loss': final_train_loss,
-                    'final_val_loss': final_val_loss,
-                    'Metric3': 123,
-                    'Total': 123,
-                }
-            },
+            # {
+            #     "split": "train_split",
+            #     "show_to_participant": True,
+            #     "accuracies": {
+            #         'final_train_loss': final_train_loss,
+            #         'final_val_loss': final_val_loss,
+            #         'Metric3': 123,
+            #         'Total': 123,
+            #     }
+            # },
             {
                 "split": "test_split",
                 "show_to_participant": True,
@@ -120,7 +120,7 @@ def evaluate(test_annotation_file_path, user_submission_file_path, phase_codenam
                     'Metric3': 123,
                     'Total': 123,
                 }
-            }
+            },
         ]
 
     '''
@@ -143,18 +143,6 @@ def evaluate(test_annotation_file_path, user_submission_file_path, phase_codenam
             }
         ]
 
-    
-    
-    # To display the results in the result file
-    if phase_codename == "dev":
-
-        output["submission_result"] = output["result"][0]
-
-    elif phase_codename == "test":
-
-        output["submission_result"] = output["result"][1]
-
-    # print(output['submission_result'])
     '''
     print(f"Completed evaluation for {phase_codename}")
 
