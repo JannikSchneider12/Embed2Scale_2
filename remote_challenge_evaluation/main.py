@@ -21,7 +21,7 @@ logger.setLevel(logging.DEBUG)
 
 
 #############################################################################
-def load_config(file_path='github/host_config.json'):
+def load_config(file_path='/home/ubuntu/Embed2Scale_2/github/host_config.json'):
     try:
         with open(file_path, 'r') as f:
             return json.load(f)
@@ -195,7 +195,7 @@ if __name__ == "__main__":
                 print(f'submission_file_path: {submission_file_path}')
                 try:
                     print("try evaluate")
-                    results = evaluate(test_annotation_file_path='./annotations/test_annotations_testsplit.json',
+                    results = evaluate(test_annotation_file_path='/home/ubuntu/Embed2Scale_2/annotations/test_annotations_testsplit.json',
                         user_submission_file_path=submission_file_path, phase_codename=challenge_phase["codename"]
                     )
                     print(f"results: {results}")
