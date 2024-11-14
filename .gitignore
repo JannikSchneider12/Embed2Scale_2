@@ -11,4 +11,7 @@ venv/
 # cache
 __pycache__
 *.pyc
+<<<<<<< HEAD
 myenv/
+=======
+>>>>>>> 5c5278225349e418bd42735e70aa3f193fec6709

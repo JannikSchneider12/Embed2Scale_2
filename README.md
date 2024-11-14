@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Additional ReadMe (from Jannik)
 This was a toy example to test the setup. The main building blocks are:
 * The annotation files (in the annotations folder) that contain a label for every datapoint (in this case an image path) where they are divided by train and val splits and each challenge phase has its own file
@@ -13,6 +14,8 @@ This was a toy example to test the setup. The main building blocks are:
 
 # Original EvalAI ReadMe
 
+=======
+>>>>>>> 5c5278225349e418bd42735e70aa3f193fec6709
 ## How to create a challenge on EvalAI?
 
 If you are looking for a simple challenge configuration that you can replicate to create a challenge on EvalAI, then you are at the right place. Follow the instructions given below to get started.
