@@ -1,3 +1,18 @@
+# Additional ReadMe (from Jannik)
+This was a toy example to test the setup. The main building blocks are:
+* The annotation files (in the annotations folder) that contain a label for every datapoint (in this case an image path) where they are divided by train and val splits and each challenge phase has its own file
+* The Evaluation script (evaluate.py) inside the "remote_challenge_evaluation" folder and the helper script for the dataloaders and linear probing layer (Linear_Probing.py)
+* Some minimal changes to the main.py (also in the remote_challenge_evaluation folder) as well as the requirements.txt that contains the requirements for the venv
+* Settings in the challenge_config.yaml e.g. for the duration of the challenge phases and leaderboard settings
+## General process
+* Start the venv with source bin/myenv/activate
+* Start the remote evaluation worker script (python Embed2Scale_2/remote_challenge_evaluation/main.py)
+* If a new submission is made via the web interface of EvalAI, the worker gets the submission, runs the evaluation script and returns the result as json to the web interface of EvalAI
+* Important note: the format of the results dict that gets returned from the evaluate function in evaluate.py needs to stay the same in order to work. So the outer keys need to be the same ("split", "show_to_participant", "accuracies"), otherwise the EvalAI web interface does not accept it. So if you make changes to what needs to be shown on the leaderboard, it should happen inside the "accuracies".
+
+
+# Original EvalAI ReadMe
+
 ## How to create a challenge on EvalAI?
 
 If you are looking for a simple challenge configuration that you can replicate to create a challenge on EvalAI, then you are at the right place. Follow the instructions given below to get started.

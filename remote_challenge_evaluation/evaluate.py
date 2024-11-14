@@ -101,16 +101,9 @@ def evaluate(test_annotation_file_path, user_submission_file_path, phase_codenam
         ]
     elif phase_codename == "test":
         output["result"] = [
-            # {
-            #     "split": "train_split",
-            #     "show_to_participant": True,
-            #     "accuracies": {
-            #         'final_train_loss': final_train_loss,
-            #         'final_val_loss': final_val_loss,
-            #         'Metric3': 123,
-            #         'Total': 123,
-            #     }
-            # },
+            # important: the outer keys need to stay the same. Otherwise the EvalAI web interface does not accept it.
+            # So if you make changes to what needs to be shown on the leaderboard, it should happen inside the "accuracies".
+
             {
                 "split": "test_split",
                 "show_to_participant": True,
